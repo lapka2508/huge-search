@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0 auto;
+	background: #F1F1F1;
+	font-size: 0;
+	max-width: 1200px;
+	padding: 0 10%;
+}
+.vk-input {
+	background: #F1F1F1;
+	color: #C2C2C2;
+	font-weight: bold;
+	font-size: 50px;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+	border: none;
+}
+input::placeholder {
+	color: #C2C2C2;
+}
+.vk-button {
+	display: inline-block;
+	margin: 0 auto;
+	background: #F1F1F1;
+	border: none;
+	width: 30%;
+}
+aside {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	padding: 12px;
+	font-size: 0;
+}
+.vk-people img {
+	border-radius: 50%;
+}
+.vk-people a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.vk-popular a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.vk-recent a {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.vk-popular {
+
+}
+li {
+	display: block;
+	background: #EBEBED;
+	font-size: 12px;
+	color: #C2C2C2;
+	margin: 5px;
+	border-radius: 3%;
+}
+a:hover {
+	color: #F87E7E;
+	text-decoration: none;
+}
+.vk-people-list {
+	display: inline-block;
+	width: calc(100%-70px);
+	vertical-align: top;
+	margin: 4px;
+}
+.vk-popular-list {
+	display: inline-block;
+	width: calc(100%-70px);
+	vertical-align: middle;
+	margin: 4px 0;
+}
+.vk-recent-list {
+	display: inline-block;
+	width: calc(100%-70px);
+	vertical-align: middle;
+	margin: 4px 0;
+}
